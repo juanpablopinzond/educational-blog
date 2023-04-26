@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+}
+
+nav {
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 1%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    margin-right: 130px;
+    text-align: center;
+}
+
+nav h1 {
+    justify-content: center;
+    margin-right: 50px;
+}
