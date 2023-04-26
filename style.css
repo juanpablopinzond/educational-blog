@@ -1,23 +1,36 @@
 body {
     margin: 0px;
+    font-family: "Josefin Sans";
 }
 
 nav {
-    border: 3px solid black;
     display: flex;
     flex-direction: row;
     gap: 50px;
     padding: 1%;
     justify-content: space-between;
     align-items: center;
+    background: linear-gradient(to bottom, blue, white, black);
 }
 
 nav a {
-    margin-right: 130px;
+    font-size: 16px;
+    margin-right: 80px;
     text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 60px;
+    color: black;
+    transition: transform 0.3s ease-out;
+    transition: background-color 0.5s ease-out;
+}
+
+nav a:hover {
+    transform: scale(1.1);
+    background-color: rgb(175, 216, 208);
 }
 
 nav h1 {
     justify-content: center;
-    margin-right: 50px;
+    margin-right: 6%;
 }
