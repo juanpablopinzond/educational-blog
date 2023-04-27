@@ -11,6 +11,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     background: linear-gradient(to bottom, blue, white, black);
+    margin-bottom: 16px;
 }
 
 nav a {
@@ -27,10 +28,88 @@ nav a {
 
 nav a:hover {
     transform: scale(1.1);
-    background-color: rgb(175, 216, 208);
 }
 
 nav h1 {
     justify-content: center;
     margin-right: 6%;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    text-align: justify;
+}
+
+.astronomy a,
+.books a,
+.games a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: darkgoldenrod;
+    padding: 10px;
+    color: white;
+}
+
+img {
+    width: 400px;
+}
+
+.books img {
+    height: 200px;
+}
+
+.container {
+    display: grid;
+    width: 400px;
+    justify-content: space-between;
+    gap: 142px;
+}
+
+.astronomy {
+    border: 3px solid black;
+    margin-bottom: 16px;
+    margin-left: 10px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    cursor: pointer;
+    box-shadow: -1px 1px 15px 5px #000000;
+}
+
+.games {
+    border: 3px solid black;
+    margin-bottom: 16px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    cursor: pointer;
+    box-shadow: -1px 1px 15px 5px #000000;
+}
+
+.books {
+    border: 3px solid black;
+    margin-bottom: 16px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    cursor: pointer;
+    box-shadow: -1px 1px 15px 5px #000000;
+}
+
+.footer {
+    margin-bottom: 16px;
+    grid-row: 2;
+    margin: 0 25px 0 10px;
+    padding: 4%;
+    cursor: pointer;
+}
+
+.footer div {
+    margin-bottom: 1px;
+}
+
+.astronomy:hover,
+.games:hover,
+.books:hover {
+    box-shadow: -1px 1px 15px 10px #000000;
 }
