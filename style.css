@@ -1,6 +1,8 @@
 body {
     margin: 0px;
     font-family: "Josefin Sans";
+    background-image: url("./img/newPlanet.jpg");
+    background-size: cover;
 }
 
 nav {
@@ -23,24 +25,64 @@ nav a {
     border-radius: 60px;
     color: black;
     transition: transform 0.3s ease-out;
-    transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s in elastic;
 }
 
 nav a:hover {
-    transform: scale(1.1);
+    transform: scale(1.5);
 }
 
 nav h1 {
     justify-content: center;
     margin-right: 6%;
+    transition: transform 0.3s ease-out;
+    color: black;
+}
+
+@keyframes title {
+    0% {
+        color: black;
+    }
+    50% {
+        color: yellow;
+    }
+    100% {
+        color: blue;
+    }
+}
+
+nav h1:hover {
+    transform: scale(1.5);
+    animation-name: title;
+    animation-duration: 4s;
 }
 
 h1 {
     text-align: center;
+    transition: transform 0.3s ease-out;
+    transition: background-color 0.5s in elastic;
+    color: white;
+}
+
+@keyframes title2 {
+    50% {
+        color: rgb(89, 229, 67);
+    }
+    100% {
+        color: rgb(19, 86, 24);
+    }
+}
+
+h1:hover {
+    transform: scale(1.8);
+    animation-name: title2;
+    animation-duration: 5s;
 }
 
 div {
     text-align: justify;
+    color: white;
+    padding: 10px;
 }
 
 .astronomy a,
@@ -76,6 +118,7 @@ img {
     grid-column-end: 1;
     cursor: pointer;
     box-shadow: -1px 1px 15px 5px #000000;
+    background-color: rgb(36, 36, 39);
 }
 
 .games {
@@ -85,6 +128,7 @@ img {
     grid-column-end: 3;
     cursor: pointer;
     box-shadow: -1px 1px 15px 5px #000000;
+    background-color: rgb(36, 36, 39);
 }
 
 .books {
@@ -94,6 +138,7 @@ img {
     grid-column-end: 4;
     cursor: pointer;
     box-shadow: -1px 1px 15px 5px #000000;
+    background-color: rgb(36, 36, 39);
 }
 
 .footer {
@@ -102,6 +147,13 @@ img {
     margin: 0 25px 0 10px;
     padding: 4%;
     cursor: pointer;
+    background-color: rgb(36, 36, 39);
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: yellow;
 }
 
 .footer div {

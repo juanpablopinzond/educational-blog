@@ -1,0 +1,76 @@
+body {
+    margin: 0px;
+    font-family: "Josefin Sans";
+    background-color: dimgrey;
+    background-image: url("./img/newPlanet.jpg");
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 1%;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to bottom, blue, white, black);
+    margin-bottom: 16px;
+}
+
+nav a {
+    font-size: 16px;
+    margin-right: 80px;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 60px;
+    color: black;
+    transition: transform 0.3s ease-out;
+    transition: background-color 0.5s in elastic;
+}
+
+nav a:hover {
+    transform: scale(1.5);
+}
+
+nav h1 {
+    justify-content: center;
+    margin-right: 6%;
+    transition: transform 0.3s ease-out;
+    color: black;
+}
+
+@keyframes title {
+    0% {
+        color: black;
+    }
+    50% {
+        color: yellow;
+    }
+    100% {
+        color: blue;
+    }
+}
+
+nav h1:hover {
+    transform: scale(1.5);
+    animation-name: title;
+    animation-duration: 4s;
+}
+
+img {
+    width: 400px;
+    border: 5px double black;
+    border-radius: 30px;
+}
+
+h1 {
+    color: white;
+    padding: 5px;
+}
+
+div {
+    color: white;
+    display: none;
+    padding: 20px;
+}
