@@ -1,25 +1,16 @@
-var imagen = document.querySelector(".image");
-var showtext = document.querySelector(".text");
+var imagen = document.getElementById("image");
+var text1 = document.getElementById("text");
+var imagen2 = document.getElementById("image2");
+var text2 = document.getElementById("text2");
 
-function showandhideText() {
-    if (showtext.style.display === "none") {
-        showtext.style.display = "block"
+
+function showandhideText(text) {
+    if (text.style.display === "none") {
+        text.style.display = "block"
     } else {
-        showtext.style.display = "none";
+        text.style.display = "none";
     }
 }
 
-imagen.addEventListener("click", showandhideText);
-
-var imagen2 = document.querySelector(".image2");
-var showtext2 = document.querySelector(".text2");
-
-function showandhideText2() {
-    if (showtext2.style.display === "none") {
-        showtext2.style.display = "block"
-    } else {
-        showtext2.style.display = "none";
-    }
-}
-
-imagen2.addEventListener("click", showandhideText2);
+imagen.addEventListener("click", function() { showandhideText(text1); });
+imagen2.addEventListener("click", function() { showandhideText(text2); });

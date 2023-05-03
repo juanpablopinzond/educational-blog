@@ -2,8 +2,8 @@ body {
     margin: 0px;
     font-family: "Josefin Sans";
     background-color: dimgrey;
-    background-image: url("./img/newPlanet.jpg");
-    background-size: cover;
+    background-image: url("./img/universe.jpg");
+    background-size: 50%;
 }
 
 nav {
@@ -72,5 +72,95 @@ h1 {
 
 div {
     color: white;
-    padding: 20px;
+    padding: 25px;
+    text-align: justify;
+}
+
+#container {
+    background-color: rgb(23, 51, 164);
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    border: 4px dashed black;
+    border-radius: 40px;
+}
+
+.bigbang {
+    box-shadow: -1px 1px 15px 5px #000000;
+    transition: transform 0.3s ease-out;
+}
+
+.nova {
+    box-shadow: -1px 1px 15px 5px #000000;
+    transition: transform 0.3s ease-out;
+}
+
+.eclipses {
+    box-shadow: -1px 1px 15px 5px #000000;
+    transition: transform 0.3s ease-out;
+}
+
+.bigbang:hover,
+.nova:hover,
+.eclipses:hover {
+    transform: scale(1.1);
+}
+
+.containerBooks {
+    background-color: rgb(146, 146, 218);
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    border: 4px double black;
+    border-radius: 40px;
+    margin-bottom: 16px;
+}
+
+.libros {
+    background-image: url("./img/booksWallpaper.jpg");
+}
+
+.homosapiens {
+    width: 300px;
+    box-shadow: -1px 1px 15px 5px #000000;
+    transition: transform 0.3s ease-out;
+}
+
+.homosapiens:hover {
+    transform: scale(1.1);
+}
+
+.homodeus {
+    box-shadow: -1px 1px 15px 5px #000000;
+    transition: transform 0.3s ease-out;
+    width: 300px;
+}
+
+.homodeus:hover {
+    transform: scale(1.1);
+}
+
+.lecciones {
+    box-shadow: -1px 1px 15px 5px #000000;
+    transition: transform 0.3s ease-out;
+    width: 300px;
+}
+
+.lecciones:hover {
+    transform: scale(1.1);
+}
+
+.ahora {
+    box-shadow: -1px 1px 15px 5px #000000;
+    transition: transform 0.3s ease-out;
+    width: 300px;
+}
+
+.ahora:hover {
+    transform: scale(1.1);
+}
+
+.gamesWallpaper {
+    background-image: url("./img/games2.jpg");
+    background-size: 30%;
 }
