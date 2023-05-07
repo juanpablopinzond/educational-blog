@@ -19,7 +19,7 @@ nav {
 
 nav a {
     font-size: 16px;
-    margin-right: 80px;
+    margin-right: 90px;
     text-align: center;
     text-decoration: none;
     padding: 20px;
@@ -163,4 +163,83 @@ div {
 .gamesWallpaper {
     background-image: url("./img/games2.jpg");
     background-size: 30%;
+}
+
+.containerGames {
+    background-image: linear-gradient(to right, red, orange, green);
+    width: 40%;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+    border: 3px solid black;
+    padding: 20px;
+}
+
+.containerGames h1 {
+    font-size: 50px;
+}
+
+.containerGames h2 {
+    font-size: 30px;
+}
+
+.containerGames ul a {
+    text-decoration: none;
+    color: white;
+    text-align: justify;
+    font-size: 30px;
+}
+
+.containerGames a {
+    width: 400px;
+}
+
+.opinionSection {
+    background-image: linear-gradient(to bottom, gray 25%, rgb(72, 72, 133) 75%, blue 100%);
+}
+
+.sectionContainer h1 {
+    font-size: 40px;
+    color: rgb(70, 70, 191);
+    transition: transform 0.3s ease-in-out, margin-left 0.3s ease-in-out;
+}
+
+.sectionContainer h1:hover {
+    transform: translateX(20px);
+}
+
+#zelda,
+#elden_ring,
+#RE2 {
+    box-shadow: -1px 1px 15px 5px #000000;
+    transition: transform 0.3s ease-out;
+    width: 300px;
+}
+
+#zelda:hover,
+#elden_ring:hover,
+#RE2:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: rgb(54, 50, 50);
+    margin-top: 10px;
+}
+
+label {
+    font-size: 20px;
+}
+
+#buttom {
+    font-size: 30px;
+    border: 6px solid black;
+}
+
+#name,
+#email,
+#comment {
+    font-size: 20px;
+    border: 6px solid black;
+    box-shadow: 0px 0px 10px 2px black;
 }

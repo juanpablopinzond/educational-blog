@@ -18,7 +18,7 @@ nav {
 
 nav a {
     font-size: 16px;
-    margin-right: 80px;
+    margin-right: 85px;
     text-align: center;
     text-decoration: none;
     padding: 20px;
@@ -44,10 +44,10 @@ nav h1 {
         color: black;
     }
     50% {
-        color: yellow;
+        color: rgb(224, 103, 47);
     }
     100% {
-        color: blue;
+        color: rgb(238, 196, 60);
     }
 }
 
@@ -66,10 +66,10 @@ h1 {
 
 @keyframes title2 {
     50% {
-        color: rgb(89, 229, 67);
+        color: rgb(53, 75, 183);
     }
     100% {
-        color: rgb(19, 86, 24);
+        color: rgb(28, 20, 178);
     }
 }
 
